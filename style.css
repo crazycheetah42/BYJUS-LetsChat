@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(90deg, rgba(255,68,194,1) 0%, rgba(231,2,226,1) 40%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+.transparent_btn {
+    background-color: rgba(0, 0, 0, 0.61);
+    border-color: grey;
+}
+.transparent_btn:hover {
+    color: white;
+}
