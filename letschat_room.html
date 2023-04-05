@@ -3,34 +3,40 @@
 <head>
 	<title>LetsChat Rooms</title>
 	
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	
-	<link rel="stylesheet" type="text/css" href="letschat_room.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <center>
-	<h1 style="text-align: center;">LetsChat Rooms</h1>
+    <center style="color: white;">
+	<h1 style="text-align: center; color: white;">LetsChat Rooms</h1>
 	<h4 id="username_paragraph">Welcome, username!</h4>
 	<br />
 	<span>
 	<input type="text" id="room_name" style="width: 50%;" class="form-control" placeholder="Room Name">
+	<br />
 	<button class="btn transparent_btn" onclick="addRoom();">Add Room</button>
 	</span>
+	<br>
+	<h3 class="color_white">#TRENDINGROOMS</h3>
+	<div id="output"></div>
 	</center>
 
 
-	<script src="kwitter.js"></script>
 	<script src="letschat_room.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
 </body>
 </html>
